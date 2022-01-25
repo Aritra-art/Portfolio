@@ -126,14 +126,27 @@ body{
   text-decoration: underline;
 }
 .project-ow{
+  border-radius: 0.8rem;
   background-color: var(--off-white);
   padding-top: 0.8rem;
   padding-bottom: 2rem;
   padding-left: 5rem;
 }
 .project-w{
-  
+  border-radius: 0.8rem;
   padding-top: 0.8rem;
   padding-bottom: 2rem;
   padding-left: 5rem;
+}
+.about-footer{
+  padding-top: 2rem;
+  
+}
+.index-margin{
+  padding-left: 4rem;
+  padding-right: 4rem;
+  
+}
+.section-border{
+  border-radius: 1rem;
 }
