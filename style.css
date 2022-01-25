@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root{
+  --primary-colors:#FB923C;
+  --grey-color:#64748b;
+  --off-white:#F3F4F6;
+}
+hr{
+  margin: 2rem 0rem;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin:0px;
+}
+.container{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.container-center{
+  max-width: 700px;
+  margin:auto;
+  padding: 0rem 0rem;
+}
+.container-fluid{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.link{
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+.primary-link{
+  background-color: var(--primary-colors);
+  border: 1px solid var(--primary-colors);
+  color: whitesmoke;
+  border-radius: 0.5rem;
+}
+.secondary-link{
+  color: var(--primary-colors);
+  border: 1px solid var(--primary-colors);
+  border-radius: 0.5rem;
+}
+.non-bullet{
+  list-style: none;
+}
+.list-item-inline{
+  padding: 0rem 1rem;
+  display: inline;
+}
+.navigation{
+  background-color: var(--primary-colors);
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  color: whitesmoke;
+}
+.navigation .nav-brand{
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+ .navigation .link-active{
+  font-weight: bold;
+}
+.navigation .nav-pills{
+  text-align: right;
+}
+.navigation .link{
+  color: whitesmoke;
+}
+.hero{
+  padding-top: 2.2rem ;
+  display: block;
+}
+.hero .hero-img{
+  max-width: 370px;
+  display: block;
+  margin: auto;
+}
+.hero .hero-heading .heading-inverted{
+  color: var(--primary-colors);
+}
+.hero .hero-heading{
+ color: var(--grey-color);
+ text-align: center;
+ padding-top: 1rem;
+ padding-bottom: 0.3rem;
+}
+.section h2 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+.section p{
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+.ow{
+  background-color: var(--off-white);
+  padding-top: 0.8rem;
+  padding-bottom: 2rem;
+}
+.ws{
+  padding-top: 0.8rem;
+  padding-bottom: 2rem;
+}
+.section .buttons{
+  padding-top: 0.5rem;
+  text-align: center;
+}
+.footer{
+  background-color: var(--primary-colors);
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  border-top-right-radius: 1rem;
+  color: whitesmoke;
+}
+.footer ul{
+  padding-inline-start: 0px;
+  padding-top: 0.4rem;
+}
+.footer .footer-header{
+  font-weight: bold;
+  font-size: larger;
+}
+.footer .link{
+  color: whitesmoke;
+  text-decoration: underline;
+}
+.project-ow{
+  background-color: var(--off-white);
+  padding-top: 0.8rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+}
+.project-w{
+  
+  padding-top: 0.8rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+}
