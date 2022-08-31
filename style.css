@@ -23,7 +23,7 @@ body {
 .container-center {
   max-width: 700px;
   margin: auto;
-  padding: 0rem 0rem;
+  padding: 0rem 2rem;
 }
 
 .container-fluid {
@@ -38,15 +38,26 @@ body {
 
 .primary-link {
   background-color: var(--primary-colors);
-  border: 1px solid var(--primary-colors);
   color: whitesmoke;
   border-radius: 0.5rem;
+  padding: 0.8rem;
+  font-weight: bold;
+}
+
+.primary-link:hover {
+  background-color: #f97316;
 }
 
 .secondary-link {
   color: var(--primary-colors);
+  padding: 0.8rem;
   border: 1px solid var(--primary-colors);
   border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.secondary-link:hover {
+  background-color: #fef3c7;
 }
 
 .non-bullet {
@@ -132,6 +143,7 @@ body {
 }
 
 .footer {
+  margin-top: 2rem;
   background-color: var(--primary-colors);
   text-align: center;
   padding-top: 1.5rem;
@@ -152,8 +164,8 @@ body {
 
 .footer .link {
   color: whitesmoke;
-  text-decoration: underline;
 }
+
 
 .project-ow {
   border-radius: 0.8rem;
@@ -168,6 +180,14 @@ body {
   padding-top: 0.8rem;
   padding-bottom: 2rem;
   padding-left: 5rem;
+}
+
+.linkOne:hover,
+.linkTwo:hover,
+.linkThree:hover,
+.linkFour:hover {
+  text-decoration: underline;
+
 }
 
 .about-footer {
